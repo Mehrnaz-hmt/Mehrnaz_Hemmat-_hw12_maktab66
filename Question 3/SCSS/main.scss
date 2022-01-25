@@ -1,0 +1,15 @@
+@mixin myMixin ($x,$y,$pseudo:false) {
+
+    @if ($pseudo == true) {
+        padding-top:( $y / $x);
+        width:100%;
+    }@else {
+        width:100%;
+    }
+}
+.first-div {
+    @include myMixin(10, 60,true);
+    background-color: rgb(245, 218, 222);
+}
+
+
