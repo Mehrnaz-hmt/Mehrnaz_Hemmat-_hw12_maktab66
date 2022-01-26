@@ -5,6 +5,7 @@ function timeoutPromiseResolve(interval) {
     }, interval);
   });
 }
+
 function timeoutPromiseReject(interval) {
   return new Promise((resolve, reject) => {
     setTimeout(function () {
@@ -17,6 +18,7 @@ function timeTest() {
   timeoutPromiseReject(2000);
   timeoutPromiseResolve(3000);
 }
+
 let startTime = Date.now();
 timeTest()
   .then(() => {})

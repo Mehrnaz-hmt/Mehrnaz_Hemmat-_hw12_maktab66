@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
@@ -12,22 +12,16 @@ body {
   padding-bottom: 20px;
 }
 
-.container .first-box,
-.container .second-box,
-.container .fourth-box {
+.container .first-box, .container .second-box, .container .fourth-box {
   padding-top: 1px;
   margin: 20px 30px 20px 30px;
 }
 
-.container .first-box p,
-.container .second-box p,
-.container .fourth-box p {
+.container .first-box p, .container .second-box p, .container .fourth-box p {
   font-size: 20px;
 }
 
-.container .first-box input,
-.container .second-box input,
-.container .fourth-box input {
+.container .first-box input, .container .second-box input, .container .fourth-box input {
   width: 95%;
   padding: 15px;
   border: 0.5px solid #aaa8a8;
@@ -54,7 +48,7 @@ body {
   margin: 8px 0;
   display: inline-block;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container .fourth-box input {
@@ -67,5 +61,6 @@ body {
   background-color: #5bf58c;
   border: 0.5px solid #aaa8a8;
   border-radius: 5px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
