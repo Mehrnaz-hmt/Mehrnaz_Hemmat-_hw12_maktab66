@@ -1,7 +1,7 @@
 @mixin myMixin ($x,$y,$pseudo:false) {
 
     @if ($pseudo == true) {
-        padding-top:#{$y / $x}#{%};
+        padding-top:#{$y/$x*1%};
         width:100%;
     }@else {
         width:100%;

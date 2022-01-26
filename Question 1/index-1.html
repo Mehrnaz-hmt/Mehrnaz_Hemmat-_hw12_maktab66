@@ -8,14 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="container">
+    <form class="container">
         <div class="first-box">
             <p>First Name</p>
-            <input  type="text" placeholder="Your Name...">
+            <input  id="firstnameinput" type="text" placeholder="Your Name...">
         </div>
         <div class="second-box">
             <p>Last Name</p>
-            <input type="text" placeholder="Your Last Name...">
+            <input id="lastnameinput" type="text" placeholder="Your Last Name...">
         </div>
         <div class="third-box">
             <label for="country">Country</label>
@@ -27,10 +27,10 @@
         </div>
         <div class="fourth-box">
             <p>Subject</p>
-            <input type="text" placeholder="Write something...">
+            <input id="description" type="text" placeholder="Write something...">
         </div>
-        <button type="button" onclick="myFunction(event)"class="submit-btn">Submit</button>
-    </section>
+        <button onclick="myFunction(event)" type="submit" class="submit-btn">Submit</button>
+    </form>
     <p id="demo"></p>
     <script src="script-1.js"></script>
 </body>
