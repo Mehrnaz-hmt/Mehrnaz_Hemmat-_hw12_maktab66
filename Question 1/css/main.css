@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 3% 2% 3% 2%;
+  width: 95vw;
+  background-color: #e0dbdb;
+  padding-bottom: 20px;
+}
+
+.container .first-box,
+.container .second-box,
+.container .fourth-box {
+  padding-top: 1px;
+  margin: 20px 30px 20px 30px;
+}
+
+.container .first-box p,
+.container .second-box p,
+.container .fourth-box p {
+  font-size: 20px;
+}
+
+.container .first-box input,
+.container .second-box input,
+.container .fourth-box input {
+  width: 95%;
+  padding: 15px;
+  border: 0.5px solid #aaa8a8;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.container .third-box {
+  margin: 20px 30px 20px 30px;
+  width: 95%;
+}
+
+.container .third-box label {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.container .third-box select {
+  width: 98%;
+  padding: 15px;
+  border: 0.5px solid #aaa8a8;
+  border-radius: 6px;
+  font-size: 15px;
+  margin: 8px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container .fourth-box input {
+  padding: 40px 20px 40px 20px;
+}
+
+.container button {
+  margin-left: 29px;
+  padding: 15px;
+  background-color: #5bf58c;
+  border: 0.5px solid #aaa8a8;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,81 @@
+//fonts-sizes:
+$font-size-md: 20px;
+$font-size-sm: 15px;
+
+//colors:
+$color-btn: rgb(91, 245, 140);
+$color-bg: rgb(224, 219, 219);
+$color-border: rgb(170, 168, 168);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//mixins:
+@mixin boxes {
+  margin: 20px 30px 20px 30px;
+}
+
+@mixin input {
+  width: 95%;
+  padding: 15px;
+  border: 0.5px solid $color-border;
+  border-radius: 6px;
+  font-size: $font-size-sm;
+}
+.container {
+  margin: 3% 2% 3% 2%;
+  width: 95vw;
+  background-color: $color-bg;
+  padding-bottom: 20px;
+  .first-box {
+    padding-top: 1px;
+    @include boxes;
+    p {
+      font-size: $font-size-md;
+    }
+    input {
+      width: 95%;
+      padding: 15px;
+      border: 0.5px solid $color-border;
+      border-radius: 6px;
+      font-size: $font-size-sm;
+    }
+  }
+  .second-box {
+    @extend .first-box;
+  }
+  .third-box {
+    @include boxes;
+    width: 95%;
+    label {
+      font-size: $font-size-md;
+      display: inline-block;
+    }
+    select {
+      width: 98%;
+      padding: 15px;
+      border: 0.5px solid $color-border;
+      border-radius: 6px;
+      font-size: $font-size-sm;
+      margin: 8px 0;
+      display: inline-block;
+      box-sizing: border-box;
+    }
+  }
+
+  .fourth-box {
+    @extend .first-box;
+    input {
+      padding: 40px 20px 40px 20px;
+    }
+  }
+  button {
+    margin-left: 29px;
+    padding: 15px;
+    background-color: $color-btn;
+    border: 0.5px solid $color-border;
+    border-radius: 5px;
+  }
+}

@@ -9,7 +9,7 @@
 }
 .first-div {
     @include myMixin(10, 60,true);
-    background-color: rgb(245, 218, 222);
+    background-color:rgb(224, 188, 220);
 }
 
 
