@@ -6,6 +6,8 @@ $font-size-sm: 15px;
 $color-btn: rgb(91, 245, 140);
 $color-bg: rgb(224, 219, 219);
 $color-border: rgb(170, 168, 168);
+$color-black: black;
+$color-lightgrey: rgba(255, 254, 254, 0);
 
 body {
   margin: 0;
@@ -79,4 +81,39 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+}
+// --------------------------------------------
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  margin-left: 40%;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  background-color: $color-black;
+  background-color: $color-lightgrey;
+}
+.modal-content {
+  background-color: $color-border;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid $color-bg;
+  width: 80%;
+  border-radius: 6px;
+  // transition: ease 2s all;
+}
+.close {
+  color: $color-border;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,.close:focus {
+  color:$color-black;
+  text-decoration: none;
+  cursor: pointer;
 }

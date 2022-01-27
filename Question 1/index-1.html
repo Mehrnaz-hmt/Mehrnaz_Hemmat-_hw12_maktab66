@@ -29,8 +29,21 @@
             <p>Subject</p>
             <input id="description" type="text" placeholder="Write something...">
         </div>
-        <button onclick="myFunction(event)" type="submit" class="submit-btn">Submit</button>
+        <button onclick="myFunction(event)" type="submit" id="myBtn" class="submit-btn">Submit</button>
     </form>
+
+    <!--------------------------------->
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Your information was successfully registered!</p>
+      </div>
+    </div>
+    <!---------------------------------->
     <p id="demo"></p>
     <script src="script-1.js"></script>
 </body>
