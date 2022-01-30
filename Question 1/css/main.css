@@ -99,4 +99,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+input:invalid {
+  border: 2px solid red;
+}
 /*# sourceMappingURL=main.css.map */
